@@ -1,0 +1,23 @@
+{
+  "name": "beamline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Beam analysis toolkit: TypeScript solver, REST API and React playground",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev:api": "tsx watch src/server.ts",
+    "dev:web": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.0"
+  }
+}
